@@ -47,7 +47,7 @@ padding: 0%;
         background-color: #e72020;
         text-align: center;
         text-decoration: none;
-        padding: 10px 23px;
+        padding: 05px 23px;
         margin: 0%; 
         box-shadow: 2px 2px 5px black;
     }
@@ -58,7 +58,7 @@ padding: 0%;
         background-color: #1fb500; 
         text-align: center; 
         text-decoration: none;
-        padding: 10px 23px; 
+        padding: 05px 23px; 
         margin: 0%;box-shadow: 2px 2px 5px black;
     }
 
@@ -68,7 +68,7 @@ padding: 0%;
     background-color: #f477dc; 
     text-align: center; 
     text-decoration: none;
-    padding: 10px 23px; 
+    padding: 05px 23px; 
     margin: 0%;
     box-shadow: 2px 2px 5px black;
 }
@@ -79,7 +79,7 @@ padding: 0%;
     background-color:#d83a01; 
     text-align: center; 
     text-decoration: none;
-    padding: 10px 23px;
+    padding: 05px 23px;
     margin: 0%;
     box-shadow: 2px 2px 5px black;
 }
@@ -178,7 +178,7 @@ padding: 0%;
     }
 
     main {
-        background-color: #ffffff9f; 
+        background-color: #ffffff4b; 
         margin: auto;
         padding: 05%;
         max-width: 550px;
