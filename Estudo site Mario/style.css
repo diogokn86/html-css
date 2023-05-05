@@ -142,11 +142,14 @@ padding: 0%;
        text-align: center;
        margin: auto;
        margin-bottom: 15px;
-       border: 05px solid #ffff;
+       border-top: 05px solid #ffff;
+       border-bottom: 05px solid #ffff;
+       
+
     }
 
     header{
-        width: 100%;
+        min-width: 100%;
     }
 
     header > h1 {
@@ -162,9 +165,13 @@ padding: 0%;
     header > p {
         text-align: center;
         text-shadow: 5px 5px 10px #00000093;
+        padding-bottom: 25px;
     }
         
-    nav{margin-bottom: 85px;}
+    nav{
+        margin-bottom: 85px;
+        width: 100%;
+    }
 
     main {
         background-color: #ffffff9f; 
@@ -261,7 +268,7 @@ aside > p {
 }
 
 footer{
-    width: 100%;
+    min-width: 100%;
    
 }
 
@@ -270,7 +277,7 @@ footer > p {
     color:#f7f701; 
     background-image: linear-gradient(to right, #800000, var(--verm1), #ff4040); 
     text-align: center; 
-    padding: 05px 0px;
+    padding: 05px 2%;
     
 }
 
