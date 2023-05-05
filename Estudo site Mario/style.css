@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Mario';
+    src: url(fontes/SuperMario256.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'Comic' ;
+    src: url(fontes/Comicbon.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'heycomic';
+    src: url(fontes/Hey\ Comic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Sans';
+    src: url(fontes/OpenSans-VariableFont_wdth\,wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'Letters';
+    src: url(fontes/Letters\ for\ Learners.ttf) format('truetype');
+}
+
+
+
+*{
+margin: 0%;
+padding: 0%;
+}
+
+:root{
+--verm1:#e72020;--verm2:#ad0000;
+--verd1:#1fb500;--verd2:#178800;
+--rosa1:#f477dc;--rosa2:#a75195;
+--bows1:#d83a01;--bows2:#ca3600;
+--amar1:#f7f701;
+}
+
+
+#marionav {
+        font:normal normal 1.0em 'Mario', sans-serif;
+        color: #ffff;
+        background-color: #e72020;
+        text-align: center;
+        text-decoration: none;
+        padding: 4px 23px;
+        margin: 0%; 
+        box-shadow: 2px 2px 5px black;
+    }
+
+#luiginav {
+        font:normal normal 1.0em 'Mario', sans-serif; 
+        color: #ffff;
+        background-color: #1fb500; 
+        text-align: center; 
+        text-decoration: none;padding: 4px 23px; 
+        margin: 0%;box-shadow: 2px 2px 5px black;
+    }
+
+#peachnav {
+    font:normal normal 1.0em 'Mario', sans-serif; 
+    color: #ffff;
+    background-color: #f477dc; 
+    text-align: center; 
+    text-decoration: none;
+    padding: 4px 23px; 
+    margin: 0%;
+    box-shadow: 2px 2px 5px black;
+}
+
+#bowsernav {
+    font:normal normal 1.0em 'Mario', sans-serif; 
+    color: #ffff;
+    background-color:#d83a01; 
+    text-align: center; 
+    text-decoration: none;
+    padding: 4px 16px; 
+    margin: 0%;
+    box-shadow: 2px 2px 5px black;
+}
+
+#titulo {
+    color: #ffff;
+}
+
+.ano {
+    font-weight: bolder; 
+    color: yellow;
+}
+
+.jogos {
+    color:#ffff; font: normal normal .8em 'Mario', sans-serif;
+    text-shadow: 02px 02px #e72020;
+    letter-spacing: -1.5px;
+}
+    
+.mario {
+    font:normal normal 1.3em 'Mario', sans-serif; 
+    color: #e72020;
+    text-shadow: 1px 1px 1px #000000c2
+}
+
+.mario2{
+        font:normal normal 1.3em 'Mario', sans-serif; 
+        color:  #e72020;
+        text-shadow: 03px 02px #ffff;
+        letter-spacing: -04px;
+    }
+
+
+#marionav:active {color: #f7f701;}
+
+#luiginav:active {color: #f7f701;}
+
+#peachnav:active {color: #f7f701;}
+
+#bowsernav:active {color: #f7f701;}
+
+#marionav:hover {
+    font-size: 1.4em; 
+    border: 3px solid #ad0000;
+    transition-duration:0.3s
+}
+
+
+#luiginav:hover {
+    font-size: 1.4em; 
+    border: 3px solid #178800;
+    transition-duration:0.3s
+}
+
+
+
+#peachnav:hover {
+    font-size: 1.4em; 
+    border: 3px solid #a75195;
+    transition-duration:0.3s
+}
+
+
+
+#bowsernav:hover {
+    font-size: 1.4em; 
+    border: 3px solid #ca3600;
+    transition-duration:.3s
+}
+
+
+
+
+
+ a:hover {
+    text-decoration: underline;
+    color: var(--verm2);
+}
+
+.jogos:hover{
+    color: #ffff;}
+
+
+    body {
+    
+    background-image: url(imagens/fundo.jpg);
+    font:normal 500 1.3em 'Letters', sans-serif;}
+
+    header {
+       color: #ffff;
+       background-image: linear-gradient(to right, #800000, var(--verm1), #ff4040);
+       min-height: 150px;
+       text-align: center;
+       margin: auto;
+       margin-bottom: 07px;
+       border: 05px solid #ffff;
+    }
+
+    header > h1 {
+        font: 1.0em 'Mario', sans-serif; 
+        font-size: 2.7em;
+        padding-top: 40px; 
+        margin-bottom: 20px; 
+        text-shadow: 5px 5px 9px #000000c2;
+        transition-duration:1s; 
+        }
+
+
+    header > p {
+        text-align: center;
+        text-shadow: 5px 5px 10px #00000093;
+    }
+        
+    nav{margin-bottom: 35px;}
+
+    main {
+        background-color: #ffffff9f; 
+        margin: auto;
+        padding: 05%;
+        min-width: 400px;  
+        max-width: 700px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.753);
+    }
+
+   
+    main img {
+        width: 100%; 
+        margin: auto;
+    }
+
+    main #bugmariopq {
+        max-width: 30%; 
+        min-width: 100px; 
+        display: block;
+        margin: auto;
+    }
+
+    article > h1, h2 {
+        color: #f7f701; 
+        background-image: linear-gradient( to right, var(--verm1), transparent); 
+        text-indent: 50px;
+    }
+
+    article > p {
+        text-indent: 30px; 
+        text-align: justify;
+        margin: 25px;px 0px; 
+        font-size: 1.1em; 
+        line-height: 1em;
+    }
+            
+    p > a {
+    color: var(--verm1); 
+    font-weight: bolder; 
+    text-decoration: none; 
+    font-size: 1.1em; 
+    padding: 08px;
+}
+    
+    
+    aside > h3 {
+    margin-top: 25px; 
+    margin-bottom: 10px;
+}
+    
+    aside {
+    text-indent: 30px;
+}
+    
+    aside > ul {
+    margin: 30px 0px; 
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.877);
+}
+
+    iframe {
+    width: 100%; margin: 20px 0px;
+}
+
+    ul {
+    list-style-position: inside; 
+    list-style-type: '\1F3AE\00A0'; 
+    background-color:#e7202096; 
+    border-radius: 20px; 
+    columns: 2; 
+    padding: 20px 2px;}
+    
+    li {
+    line-height: 32px;
+}
+    
+    abbr {
+    text-decoration: none;
+}
+
+
+footer > p {
+    color:#f7f701; 
+    background-image: linear-gradient(to right, #800000, var(--verm1), #ff4040); 
+    text-align: center; 
+    padding: 05px 0px;
+}
+
+
+             
+        
+
+
+
