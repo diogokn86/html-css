@@ -87,7 +87,13 @@ padding: 0%;
 #titulo {
     color: #ffff;
 }
+  
+.cogumelos{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
 
+}
 
 .ano {
     font-weight: bolder; 
