@@ -47,7 +47,7 @@ padding: 0%;
         background-color: #e72020;
         text-align: center;
         text-decoration: none;
-        padding: 08px 16px;
+        padding: 08px 18px;
         margin: 0%; 
         box-shadow: 2px 2px 5px black;
     }
@@ -58,7 +58,7 @@ padding: 0%;
         background-color: #1fb500; 
         text-align: center; 
         text-decoration: none;
-        padding: 08px 16px; 
+        padding: 08px 18px; 
         margin: 0%;box-shadow: 2px 2px 5px black;
     }
 
@@ -68,7 +68,7 @@ padding: 0%;
     background-color: #f477dc; 
     text-align: center; 
     text-decoration: none;
-    padding: 08px 16px; 
+    padding: 08px 18px; 
     margin: 0%;
     box-shadow: 2px 2px 5px black;
 }
@@ -88,11 +88,11 @@ padding: 0%;
     color: #ffff;
 }
 
-
-
-.marioworld {
+#cogumelos{
     display: block;
-    justify-content: space-between;
+    margin: auto;
+    width: 440px;
+    margin-bottom: 40px;
 }
 
 .ano {
@@ -112,7 +112,7 @@ padding: 0%;
     text-shadow: 1px 1px 1px #000000c2
 }
 
-.mario2{
+.mario2 {
         font:normal normal 1.3em 'Mario', sans-serif; 
         color:  #e72020;
         text-shadow: 03px 02px #ffff;
@@ -178,10 +178,9 @@ padding: 0%;
     }
         
     nav{
-        margin-bottom: 85px;
+        margin-bottom: 50px;
         width: 100%;
     }
-
 
     main > article {
         background-color: #ffffff77; 
