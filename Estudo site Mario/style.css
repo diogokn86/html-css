@@ -26,11 +26,11 @@
 }
 
 
-
 *{
 margin: 0%;
 padding: 0%;
 }
+
 
 :root{
 --verm1:#e72020;--verm2:#ad0000;
@@ -42,25 +42,25 @@ padding: 0%;
 
 
 #marionav {
-        font:normal normal .7em 'Mario', sans-serif;
-        color: #ffff;
-        background-color: #e72020;
-        text-align: center;
-        text-decoration: none;
-        padding: 08px 21px;
-        margin: 0%; 
-        box-shadow: 2px 2px 5px black;
+    font:normal normal .7em 'Mario', sans-serif;
+    color: #ffff;
+    background-color: #e72020;
+    text-align: center;
+    text-decoration: none;
+    padding: 08px 21px;
+    margin: 0%; 
+    box-shadow: 2px 2px 5px black;
     }
 
 #luiginav {
-        font:normal normal .7em 'Mario', sans-serif; 
-        color: #ffff;
-        background-color: #1fb500; 
-        text-align: center; 
-        text-decoration: none;
-        padding: 08px 21px; 
-        margin: 0%;box-shadow: 2px 2px 5px black;
-    }
+    font:normal normal .7em 'Mario', sans-serif; 
+    color: #ffff;
+    background-color: #1fb500; 
+    text-align: center; 
+    text-decoration: none;
+    padding: 08px 21px; 
+    margin: 0%;box-shadow: 2px 2px 5px black;
+}
 
 #peachnav {
     font:normal normal .7em 'Mario', sans-serif; 
@@ -85,24 +85,38 @@ padding: 0%;
 }
 
 
-#marioh1{
-    width: 50%;
-    margin-top: 1px;
-}
-
-#mariobg{
-    display: block;
-    background: left bottom;
-    width: 200px;
+#mariocapa {
+    max-width:105px;
 }
 
 
-  
-.cogumelos{
+#universomario {
+    max-width: 280px;
+    margin: 1px 1px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding: 0px 30px;
+}
+
+
+#luigicapa {
+    max-width: 85px;
+}
+
+#supermarioworld {
+    margin-bottom: 30px;
+}
+
+
+.header {
+    display: inline-block;
+}
+
+
+.cogumelos {
     display: block;
     margin: auto;
     margin-bottom: 30px;
-
 }
 
 .ano {
@@ -116,128 +130,120 @@ padding: 0%;
     letter-spacing: -1.5px;
 }
     
-.mario {
-    font:normal normal 1.3em 'Mario', sans-serif; 
-    color: #e72020;
-    text-shadow: 1px 1px 1px #000000c2
-}
-
-.mario2 {
+.marioh2 {
         font:normal normal 1.3em 'Mario', sans-serif; 
         color: #e72020 ;
         text-shadow: 03px 02px #f7f701 ;
         letter-spacing: -04px;
-    }
+}
 
 
-#marionav:active {color: #f7f701;}
+#marionav:hover {color: #f7f701;}
 
-#luiginav:active {color: #f7f701;}
+#luiginav:hover {color: #f7f701;}
 
-#peachnav:active {color: #f7f701;}
+#peachnav:hover {color: #f7f701;}
 
-#bowsernav:active {color: #f7f701;}
+#bowsernav:hover {color: #f7f701;}
 
 
- a:hover {
+a:hover {
     text-decoration: underline;
     color: var(--verm2);
 }
 
-.jogos:hover{
-    color: #ffff;}
+
+.jogos:hover {
+    color: #f7f701;}
 
 
-    body {
-    
+
+body {
     background-image: url(imagens/fundo.jpg);
-    font:normal 500 1.3em 'Letters', sans-serif;}
-    
-    header {
-       color: #ffffff;
-       background-image: linear-gradient(to right, #800000, var(--verm1), #ff4040);
-       width: 100%;
-       text-align: center;
-       margin: auto;
-       margin-bottom: 15px;
-       border-bottom: 05px solid #ffff;
-       border-top: 05px solid #ffff;
-      
-       
- 
-    }
+    font:normal 500 1.3em 'Letters', sans-serif;
+}
+
+
+header {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #800000, var(--verm1), #ff4040);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    border-bottom: 05px solid #ffff;
+    border-top: 05px solid #ffff;
+}
 
   
-
-    header > h1 {
-        font: 1.0em 'Mario', sans-serif;
-        font-size: 1.0em;
-        padding-top: 40px; 
-        text-shadow: 5px 5px 9px #000000c2;
-        
-       
-    }
+header > h1 {
+    font: 1.0em 'Mario', sans-serif;
+    font-size: 1.0em;
+    padding-top: 40px; 
+    text-shadow: 5px 5px 9px #000000c2;
+}
 
 
-    header > p {
-        text-align: center;
-        text-shadow: 5px 5px 10px #00000093;
-        padding-bottom: 25px;
-    }
-        
-    nav{
-        margin-top: 10px;
-        margin-bottom: 50px;
-        width: 100%;
-        text-align: center;
-    }
+header > p {
+    text-align: center;
+    text-shadow: 5px 5px 10px #00000093;
+    padding-bottom: 25px;
+}
 
-    main > article {
-        background-color: #ffffff77; 
-        margin: auto;
-        padding: 45px 35px;
-        max-width: 750px;
-        border-radius: 20px;
-        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.753);
-        margin-bottom: 80px;
-        padding-bottom: 20px;
-    }
+
+nav{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+
+main > article {
+    background-color: #ffffff77; 
+    margin: auto;
+    padding: 45px 35px;
+    max-width: 750px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.753);
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+}
 
     
-    main img {
-        width: 100%; 
-        margin: auto;
-    }   
+main img {
+    width: 100%; 
+    margin: auto;
+}   
   
 
-    main #bugmariopq {
-        max-width: 30%; 
-        min-width: 150px; 
-        display: block;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
+main #bugmariopq {
+    max-width: 30%; 
+    min-width: 150px; 
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
     
+article > h1, h2 {
+    color: #f7f701; 
+    background-image: linear-gradient( to right, var(--verm1), transparent); 
+    text-indent: 50px;
+    margin-bottom: 70px;
+}
 
-    article > h1, h2 {
-        color: #f7f701; 
-        background-image: linear-gradient( to right, var(--verm1), transparent); 
-        text-indent: 50px;
-        margin-bottom: 70px;
-    }
 
-    article > p {
-        text-indent: 30px; 
-        text-align: justify;
-        margin-bottom: 45px; 
-        font-size: 1.2em; 
-        line-height: 1em;
-        
-    }
+article > p {
+    text-indent: 30px; 
+    text-align: justify;
+    margin-bottom: 45px; 
+    font-size: 1.2em; 
+    line-height: 1em;
+}
             
-    p > a {
+p > a {
     color: var(--verm1); 
     font-weight: bolder; 
     text-decoration: underline; 
@@ -246,36 +252,39 @@ padding: 0%;
 }
     
     
-    aside > h3 {
+aside > h3 {
     margin-top: 25px; 
     margin-bottom: 10px;
 }
 
+
 aside > p {
     text-indent: 30px; 
-        text-align: justify;
-        margin-bottom: 45px; 
-        margin-top: 75px;
-        font-size: 1.2em; 
-        line-height: 1em;
+    text-align: justify;
+    margin-bottom: 45px; 
+    margin-top: 75px;
+    font-size: 1.2em; 
+    line-height: 1em;
 }
-    
-    aside {
+
+
+aside {
     text-indent: 30px;
 }
-    
-    aside > ul {
+
+
+aside > ul {
     margin: 30px 0px; 
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.877);
-    
 }
 
 
-    iframe {
+iframe {
     width: 100%; margin: 20px 0px;
 }
 
-    ul {
+
+ul {
     list-style-position: inside; 
     list-style-type: '\1F3AE\00A0'; 
     background-color:#e7202096; 
@@ -284,17 +293,18 @@ aside > p {
     padding: 20px 2px;}
 
         
-    li {
+li {
     line-height: 32px;
 }
-    
-    abbr {
+
+
+abbr {
     text-decoration: none;
 }
 
+
 footer{
    width: 100%;
-   
 }
 
 
@@ -303,7 +313,6 @@ footer > p {
     background-image: linear-gradient(to right, #800000, var(--verm1), #ff4040); 
     text-align: center; 
     padding: 05px 2%;
-    
 }
 
 
