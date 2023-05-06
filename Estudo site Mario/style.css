@@ -84,16 +84,13 @@ padding: 0%;
     box-shadow: 2px 2px 5px black;
 }
 
-#titulo {
-    color: #ffffff;
-    font-size: 1.8em;
-    
-}
 
 #marioh1{
     width: 50%;
     margin-top: 1px;
 }
+
+
   
 .cogumelos{
     display: block;
@@ -121,8 +118,8 @@ padding: 0%;
 
 .mario2 {
         font:normal normal 1.3em 'Mario', sans-serif; 
-        color:  #e72020;
-        text-shadow: 03px 02px #ffff;
+        color: #e72020 ;
+        text-shadow: 03px 02px #f7f701 ;
         letter-spacing: -04px;
     }
 
@@ -151,7 +148,7 @@ padding: 0%;
     font:normal 500 1.3em 'Letters', sans-serif;}
     
     header {
-       color: #ffff;
+       color: #ffffff;
        background-image: linear-gradient(to right, #800000, var(--verm1), #ff4040);
        width: 100%;
        text-align: center;
@@ -159,22 +156,20 @@ padding: 0%;
        margin-bottom: 15px;
        border-bottom: 05px solid #ffff;
        border-top: 05px solid #ffff;
+      
        
  
     }
 
- 
-    header{
-        width: 100%;
-    }
+  
 
     header > h1 {
         font: 1.0em 'Mario', sans-serif;
-        font-size: 2.7em;
+        font-size: 1.0em;
         padding-top: 40px; 
         text-shadow: 5px 5px 9px #000000c2;
+        
        
-         
     }
 
 
@@ -185,15 +180,16 @@ padding: 0%;
     }
         
     nav{
+        margin-top: 10px;
         margin-bottom: 50px;
         width: 100%;
+        text-align: center;
     }
 
     main > article {
         background-color: #ffffff77; 
         margin: auto;
-        padding: 05%;
-        min-width:350px;
+        padding: 45px 35px;
         max-width: 750px;
         border-radius: 20px;
         box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.753);
@@ -202,15 +198,15 @@ padding: 0%;
     }
 
     
-       
     main img {
         width: 100%; 
         margin: auto;
-    }
+    }   
+  
 
     main #bugmariopq {
         max-width: 30%; 
-        min-width: 100px; 
+        min-width: 150px; 
         display: block;
         margin: auto;
         margin-top: 20px;
@@ -238,7 +234,7 @@ padding: 0%;
     p > a {
     color: var(--verm1); 
     font-weight: bolder; 
-    text-decoration: none; 
+    text-decoration: underline; 
     font-size: 1.3em; 
     padding: 08px;
 }
@@ -280,7 +276,8 @@ aside > p {
     border-radius: 20px; 
     columns: 2; 
     padding: 20px 2px;}
-    
+
+        
     li {
     line-height: 32px;
 }
