@@ -161,6 +161,10 @@ a:hover {
 body {
     background-image: url(imagens/fundo.jpg);
     font:normal 500 1.3em 'Letters', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
 }
 
 
@@ -173,6 +177,7 @@ header {
     margin-bottom: 15px;
     border-bottom: 05px solid #ffff;
     border-top: 05px solid #ffff;
+    
 }
 
   
