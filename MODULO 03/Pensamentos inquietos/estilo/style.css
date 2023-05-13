@@ -25,15 +25,31 @@ font-family: 'Sriracha', cursive;*/
 
 .imagem {
     background-color: rgb(19, 19, 19);
-    color:white;    
+    color:white; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.651);
+    background-attachment: fixed;
+
 }
 
 .imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(0, 0, 0, 0.486);
     padding: 05px 30px;   
+    text-shadow: 2px 2px 04px rgb(0, 0, 0);
 }
 
+#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
 
 
 section {
@@ -42,6 +58,10 @@ section {
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 
