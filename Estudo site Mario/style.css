@@ -163,7 +163,7 @@ body {
     background-image: url(imagens/fundo.jpg);
     font:normal 500 1.3em 'Letters', sans-serif;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-size: cover;
     background-position: center center;
 }
