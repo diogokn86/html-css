@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgb(255, 59, 92), rgb(171, 14, 185));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.left > h1 {
+    color: rgb(255, 227, 227)
+}
+
+.right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgba(255, 124, 77, 0.651);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.589);
+}
+
+.login > h1 {
+    color: white;
+    font-weight: 800;
+    margin:0;
+}
+
+.usuario-senha {
+    display:flex;
+    flex-direction: column;
+}
+
+.usuario-senha > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(252, 187, 164);
+    font-size: 1.0em;
+    box-shadow: 0px 06px 20px rgba(0, 0, 0, 0.507);
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+
+.usuario-senha > label {
+    color: rgb(228, 20, 54);
+    
+}
+
+.usuario-senha > input::placeholder {
+    color: rgb(228, 20, 54);
+    
+}
+
+
+
+
+
+
