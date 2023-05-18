@@ -1,25 +1,36 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
 * {
     margin: 0px;
-    padding: 0px;
+    
 }
 
 .main {
+    font-family: 'Noto Sans', sans-serif;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to right bottom, rgb(255, 59, 92), rgb(171, 14, 185));
+    background-image: linear-gradient(to right bottom, #11130e,#61684d);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    
 }
 
 .left{
     width: 50vw;
     height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 } 
 
 .left > h1 {
@@ -30,31 +41,35 @@
     width: 50vw;
     height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .login {
     width: 60%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background-color: rgba(255, 124, 77, 0.651);
+    background-color: #beb59e;
     border-radius: 20px;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.589);
 }
 
 .login > h1 {
-    color: white;
+    color: #61684d;
     font-weight: 800;
     margin:0;
 }
 
 .usuario-senha {
+    width: 100%;
     display:flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
 }
 
 .usuario-senha > input {
@@ -62,24 +77,44 @@
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background-color: rgb(252, 187, 164);
+    background-color:rgb(255, 255, 255);
+    color:#61684d;
     font-size: 1.0em;
     box-shadow: 0px 06px 20px rgba(0, 0, 0, 0.507);
     outline: none;
     box-sizing: border-box;
-    margin: 10px 0px;
+    
 }
 
 .usuario-senha > label {
-    color: rgb(228, 20, 54);
-    
+    color: rgb(255, 255, 255);
+    margin-bottom:10px
 }
 
 .usuario-senha > input::placeholder {
-    color: rgb(228, 20, 54);
+    color:#61684d;
     
 }
 
+.bot-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#464b38; ;
+    background-color: #9c7159;
+    cursor: pointer;
+    box-shadow: 0px 06px 20px #9c7159;
+    
+    
+    
+     
+}
 
 
 
