@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Noto+Sans:wght@700&family=Oooh+Baby&family=Qwigley&display=swap');
 
-@font-face {
-    font-family: ;
-    src: url();
-}
 
 * {
     margin: 0px;
+    box-sizing: border-box;
+
     
+}
+.leticia {
+    font-family: 'Allison', cursive;
+    font-weight: 400;
+    font-size: 4.3em;
 }
 
 .main {
@@ -58,9 +61,14 @@
 }
 
 .login > h1 {
+    font-size: 3vw;
     color: #61684d;
     font-weight: 800;
     margin:0;
+}
+
+.animacao {
+    width: 35vw;
 }
 
 .usuario-senha {
@@ -111,11 +119,39 @@
     cursor: pointer;
     box-shadow: 0px 06px 20px #9c7159;
     
-    
-    
-     
 }
 
+@media only screen and (max-width:950px){
+    .login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .main {
+        flex-direction: column;
+    }
+    .left > h1 {
+        display: none;
+    }
+    .left {
+        width: 100%;
+        height: auto;
+    }
+
+    .right {
+        width: 100%;
+        height: auto;
+    }
+
+    .animacao {
+        width: 50vw;
+    }
+}
+
+.login {
+    width: 90%;
+}
 
 
 
