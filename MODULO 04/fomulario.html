@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+
+        <form action="cadastro.php" method="post">
+            <p><label for="inome">Nome:</label> 
+                <input type="text" name="nome" id="inome" required minlength="5" maxlength="20" size="15" placeholder="Digite seu nome aqui" ></p>
+            
+            <p><label for="isobrenome">Sobrenome:</label> 
+                <input type="text" nome="nome" id="isobrenome"size="15"></p>
+            
+            <p><label for="iemail">E-mail:</label></E-mail><input type="email" name="email" id="iemail"></p>
+
+            <p><label for="idn">Data de nasc:</label></E-mail><input type="date" name="dn" id="idn"></p>
+           
+            <p><label for="iendereco">Endereço:</label> <input type="text" name="endereco" id="iendereco"></p>
+
+            <p><label for="icelular"></label>Celular: <input type="text" name="celular" id="icelular"size="15"></p>
+
+            <p><label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha" required minlength="8" maxlength="12"></p>
+
+            <input type="submit" value="Enviar" id="enviar">
+
+        </form>
+    
+</body>
+</html>
