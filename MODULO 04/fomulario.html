@@ -17,6 +17,14 @@
             
             <p><label for="isobrenome">Sobrenome:</label> 
                 <input type="text" nome="nome" id="isobrenome"size="15"></p>
+
+            <p>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="mas"> Masculino <br>
+                    <input type="radio" name="sexo" id="fem"> Feminino <br>
+                </fieldset>
+            </p>
             
             <p><label for="iemail">E-mail:</label></E-mail><input type="email" name="email" id="iemail"></p>
 
@@ -24,9 +32,19 @@
            
             <p><label for="iendereco">Endereço:</label> <input type="text" name="endereco" id="iendereco"></p>
 
-            <p><label for="icelular"></label>Celular: <input type="text" name="celular" id="icelular"size="15"></p>
+            <p><label for="icelular"></label>Celular: <input type="text" name="celular" id="icelular"size="15" placeholder="(xx) x xxxx- xxxx"></p>
 
             <p><label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha" required minlength="8" maxlength="12"></p>
+
+            <fieldset>
+                <legend>Seus hobbies favoritos</legend>
+                <label for="cinema"><input type="checkbox" name="cinema" id="cinema"> Cinema <br></label>
+                <label for="teatro"><input type="checkbox" name="teatro" id="teatro"> Teatro <br></label>
+                <label for="show"><input type="checkbox" name="Show" id="show"> Show <br></label>
+                <label for="serie"><input type="checkbox" name="serie" id="serie"> Séries <br></label>
+                <label for="viajar"><input type="checkbox" name="viajar" id="viajar"> Viajar <br></label>
+                <label for="esportes"><input type="checkbox" name="esportes" id="esportes"> Esportes <br></label>
+            </fieldset>
 
             <input type="submit" value="Enviar" id="enviar">
 
